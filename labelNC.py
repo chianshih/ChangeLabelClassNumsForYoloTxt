@@ -6,7 +6,7 @@ def findAllFn(myPath):
     myList = [f for f in listdir(myPath) if isfile(join(myPath, f))]
     return myList
 
-targetPath = "SMT/test/labels"
+targetPath = "yout path"
 
 labelList = findAllFn(targetPath)
 
